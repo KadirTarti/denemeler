@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.abs {
+  background-color: orange;
+  width: 200px;
+  /* px veya cm veya in (inc) değerini verince absolute değer alır. genişliği değişmez */
+}
+
+body{height: 20vh;
+}
+
+.div2 {
+  background-color: crimson;
+  width: 50%;
+  height: 70%;
+}
+
+.div3 {
+  background-color: aqua;
+  width: 120%;
+  height: 50%;
+}
+
+.div4 {
+  background-color: rgb(47, 199, 47);
+  width: 70vw;
+  height: 50%;
+}
+
+/* !  ROOT */
+html{
+    /* burada font size'ı değiştirirsek 1rem = bizim yazdığımız piksel olur */
+}
+
+.div5{
+    font-size: 25px;
+}
+
+.div6{
+    font-size: 2em;
+    /* yani parentı olan 25px'in iki katı = 50px */
+}
+
+.div7{
+    font-size: 2em;
+    /* yani parentı olan 2em nin yani 50px'in iki katı = 100px */
+}
+.div8{
+    font-size: 20px;
+}
+.div9{
+    font-size: 3rem;
+}
+.div10{
+    font-size: 3rem;
+}

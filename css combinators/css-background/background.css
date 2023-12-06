@@ -1,0 +1,89 @@
+.container{
+    border: 2px solid red;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    background-image: url(../css-background/img/resim-2.jpg);
+    background-size: 10rem 10rem;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+
+.container1{
+    border: 2px solid red;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    background-image: url(../css-background/img/resim-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container2{
+    border: 2px solid red;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    background-image: url(../css-background/img/resim-2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container3{
+    border: 2px solid red;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    background-image: linear-gradient(
+        to left,
+        rgba(255, 0, 0, 0.361), 
+        rgba(0, 0, 0, 0.325)),
+        url(../css-background/img/resim-2.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: auto;
+        text-align: justify;
+        padding: 10px;
+        box-sizing: border-box;
+        color: white;
+        text-shadow: 0 0 10px red;
+    }
+
+.container3::-webkit-scrollbar{
+    display: none;
+}
+
+.container4{
+    border: 2px solid red;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    /* background-image: url(../css-background/img/resim-2.jpg); */
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img{
+    width: 20%;
+}
+
+#img1,
+#img2,
+#img3,
+#img4{
+    opacity: 0.2;
+}
+
+#img1:hover,
+#img2:hover,
+#img3:hover,
+#img4:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition:all ease 3s;
+}
